@@ -1,71 +1,66 @@
 <!DOCTYPE html>
- <html lang="en">
- <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Document</title>
-     <link rel="stylesheet" href="style.css"/>
- </head>
- <body>
-<main style="background-color: #ADD8E6;">
-    <img src="piggy2.jpg" width="200" height="100">
-
-  
-    <table style="padding: 0px 0px 0px 1000px;">
-
-<tr>
-
-<td>About</td>
-<td>Stories</td>
-<td>FAQ</td>
-<td>Blog</td>
-<td>Log In</td>
-<td>Create a free Account</td>
-
-</tr>
-
-
-    </table>
-</main>
-<div style="padding: 10px 600px 50px 600px;border: 100px 200px; border-style: dotted;">
-     <h1 style="color: blue;"> Create a Secure Account</h1>
-     <h4>welcome to the future of savings & investments</h4>
-     <form action= "process.php" method ="POST">
-
-
-<label> First & Last Name (Should Match Your Bank) </label><br>
-<input type ="text" placeholder =" First & Last Name">
-<br><br>
-<label>Valid Email </label><br>
-<input type ="email" placeholder="Email Address"><br><br>
-<label> Phone Number</label><br>
-<input type="tel"><br><br>
-<label> Create a password</label><br>
-<input type="password"><br><br>
-<label> Referrer Phone or Promo Code (Optional)</label><br>
-<input type="text" placeholder ="Referrer Phone or Promo Code (Optional)" ><br><br>
-<label> How Did You Hear About US? (Optional) </label><br>
-<select name="How Did You Hear About US?"><br><br>
-<option value="Facebook">Facebook</option>
-<option value="Twitter">Twitter</option>
-<option value="Instagram">Instagram</option>
-<option value="Friends/Family/Coworker Referrer">Friends/Family/Coworker Referrer</option>
-<option value="Google Playstore">Google Playstore</option>
-<option value="Google Search">Google Search</option>
-<option value="Online Blog">Online Blog</option>
-<option value="Local Newspaper">Local Newspaper</option>
-<option value="At an Event">At an Event</option>
-<option value="Others">Others</option>
-</select>
-<br><br>
-
-<input style="background-color: blue; color: white;"  type ="submit" name="submit"  value  = " Create a Free Account"><br>
-
-</div>
-<p style="padding: 20px 600px;">Already have an Account? Login</p>
-<p style="padding: 0px 600px;"> By continuing, I agree to piggyvest's Terms of Use & Privacy.</p>
-
-
-
- </body>
- </html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="piggy.css">
+   <link rel="icon" href="./images/favicon.ico">
+   <title>Piggyvest Register Clone</title>
+</head>
+<body>
+   <header class="text-center">
+      <img src="./images/piggyvest-logo.svg" alt="piggyvest logo">
+   </header>
+   <main>
+      <form>
+         <div class="form-info text-center">
+            <h2>Create a Secure Account</h2>
+            <p>Welcome to the future of Savings & Investments</p>
+         </div>
+         <div class="form-control">
+            <label for="fullname">Full Name</label>
+            <input type="text" name="fullname" id="fullname" placeholder="Full Name">
+         </div>
+         <div class="form-control">
+            <label for="email">Email Address</label>
+            <input type="email" name="email" id="email" placeholder="Email Address">
+         </div>
+         <div class="form-control">
+            <label for="phoneno">Phone Number</label>
+            <input type="text" name="phoneno" id="phoneno" placeholder="Phone Number">
+         </div>
+         <div class="form-control">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Password">
+         </div>
+         <div class="form-control">
+            <label for="referrer">Referrer Phone or Promo Code (Optional)</label>
+            <input type="text" name="referrer" id="refferer" placeholder="Referrer Phone Or Code">
+         </div>
+         <div class="form-control">
+            <label for="hearaboutus">How Did You Hear About Us? (Optional)</label>
+            <select name="hearaboutus" id="hearaboutus">
+               <option value="clicktoselect">Click To Select</option>
+               <option value="facebook">Facebook</option>
+               <option value="twitter">Twitter</option>
+               <option value="instagram">Instagram</option>
+               <option value="friend">Friend/Family/Coworker Referral</option>
+               <option value="googlesearch">Google search</option>
+               <option value="googleplaystore">Google playstore</option>
+               <option value="blog">Online Blog</option>
+               <option value="newspaper">Local Newspaper</option>
+               <option value="event">At an event</option>
+               <option value="other">Other</option>
+            </select>
+         </div>
+         <div class="form-control">
+            <input type="submit" value="CREATE ACCOUNT">
+         </div>
+      </form>
+   </main>
+   <footer class="text-center">
+      <p>Already have an account? Login</p>
+   </footer>
+</body>
+</html>
