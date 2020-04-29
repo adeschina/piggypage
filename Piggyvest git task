@@ -1,67 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="piggy.css">
-   <link rel="icon" href="./images/favicon.ico">
-   <title>Piggyvest Register Clone</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piggyvest page by Godson</title>
+    <link rel="stylesheet" href="css folder/piggyvestpract.css">
 </head>
 <body>
-   <header class="text-center">
-      <img src="./images/piggyvest-logo.svg" alt="piggyvest logo">
-   </header>
-   <main>
-      <form>
-         <div class="form-info text-center">
-            <h2>Create a Secure Account</h2>
+    <main>
+<section class="images">
+<img class="top-left" src="piggy images/circle.png ">
+<img class="top-right" src="piggy images/Inverted J.png">
+<img class="bottom-left" src="piggy images/J.png" alt="bottom-left image">
+<img class="bottom-right" src="piggy images/angle bracket.png">
+</section>
+<section class="piggy-logos">
+    <img src="piggy images/images.png">
+
+</section>
+<section class="form">
+    <form>
+        <div class="heading">
+            <h1>Create a Secure Account</h1>
             <p>Welcome to the future of Savings & Investments</p>
-         </div>
-         <div class="form-control">
-            <label for="fullname">Full Name</label>
-            <input type="text" name="fullname" id="fullname" placeholder="Full Name">
-         </div>
-         <div class="form-control">
-            <label for="email">Email Address</label>
-            <input type="email" name="email" id="email" placeholder="Email Address">
-         </div>
-         <div class="form-control">
-            <label for="phoneno">Phone Number</label>
-            <input type="text" name="phoneno" id="phoneno" placeholder="Phone Number">
-         </div>
-         <div class="form-control">
-            <label for="password">Password</label>
-            <input type="password" name="password" id="password" placeholder="Password">
-         </div>
-         <div class="form-control">
-            <label for="referrer">Referrer Phone or Promo Code (Optional)</label>
-            <input type="text" name="referrer" id="refferer" placeholder="Referrer Phone Or Code">
-         </div>
-         <div class="form-control">
-            <label for="hearaboutus">How Did You Hear About Us? (Optional)</label>
-            <select name="hearaboutus" id="hearaboutus">
-               <option value="clicktoselect">Click To Select</option>
-               <option value="facebook">Facebook</option>
-               <option value="twitter">Twitter</option>
-               <option value="instagram">Instagram</option>
-               <option value="friend">Friend/Family/Coworker Referral</option>
-               <option value="googlesearch">Google search</option>
-               <option value="googleplaystore">Google playstore</option>
-               <option value="blog">Online Blog</option>
-               <option value="newspaper">Local Newspaper</option>
-               <option value="event">At an event</option>
-               <option value="other">Other</option>
+        </div>
+        
+
+        <div class="form-group">
+            <label for="Full Name">Full Name</label>
+            <input type="text" name="" value="" placeholder="Full Name">
+        </div>
+        <div class="form-group">
+            <label for="Email">Email Address</label>
+            <input type="email" name="" value="" placeholder="Email Adddress">
+        </div>
+        <div class="form-group">
+            <label for="Phone Number">Phone Number</label>
+            <input type="text" name="" value="" placeholder="Phone Number">
+        </div>
+        <div class="form-group">
+            <label for="Password">Password</label>
+            <input type= "password" name="" value="" placeholder="Password">
+        </div>
+        <div class="form-group">
+            <label for="Referrer">Referrer Phone or Promo Code (Optional)
+            </label>
+            <input type="text" name="" value="" placeholder="Referrer Phone or Code ">
+        </div>
+        <div class="hear-about-us"> How Did You Hear About Us? (Optional)
+            <select name="hear_about_us" id="" value="0" >
+                <option value="0">Click to select</option>
+                <option value="Facebook">Facebook</option>
+                <option value="Instagram">Instragram</option>
+                <option value="Twitter">Twitter</option>
+                <option value="Google Search">Google Search</option>
+                <option value="Friends/Family/Co-workers">Friends/Family/Co-Workers</option>
+                <option value="Local Newspaper">Local Newspaper</option>
+                <option value="Others">Others</option>
+
             </select>
-         </div>
-         <div class="form-control">
-            <input type="submit" value="CREATE ACCOUNT">
-         </div>
-      </form>
-   </main>
-   <footer class="text-center">
-<p><a href="https://adeschina.github.io/piggyvest-task.git/">Already have an account? Login</a></p>
-     
-   </footer>
+        </div>
+
+        <section class="Submit">
+           <button>Create Account</button>
+        </section>
+    </form>
+    
+
+
+</section>
+<p ><a href="#">Already have an account? Log In</a></p>
+
+
+</section>
+
+    </main>
 </body>
 </html>
